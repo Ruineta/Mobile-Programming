@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_width">100dp</dimen>
+    <dimen name="fab_height">100dp</dimen>
+    <dimen name="fab_size">44sp</dimen>
+</resources>
