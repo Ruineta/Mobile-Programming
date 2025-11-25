@@ -30,40 +30,40 @@ class MainActivity : AppCompatActivity() {
     private fun createDummyData(): List<AppRow> {
         val suggestedApps = listOf(
             AppItem(
-                name = "Mech Assemble: Zombie Swarm",
-                category = "Action · Role Playing · Roguelike",
+                name = "Truy Kích",
+                category = "Action · FPS",
                 rating = 4.8f,
                 sizeMb = 624
             ),
             AppItem(
-                name = "MU: Hồng Hỏa Đao",
+                name = "MU: Đại Thiên Sứ H5",
                 category = "Role Playing",
                 rating = 4.8f,
                 sizeMb = 339
             ),
             AppItem(
-                name = "War Inc: Rising",
-                category = "Strategy · Tower defense",
+                name = "Uma Musume Pretty Derby",
+                category = "Strategy · Gacha · Role Playing",
                 rating = 4.9f,
                 sizeMb = 231
             )
         )
 
         val recommendedApps = listOf(
-            AppItem("Suno", "Music & Audio", 4.6f, 120),
-            AppItem("Claude by ...", "Productivity", 4.7f, 80),
-            AppItem("DramaBox", "Entertainment", 4.5f, 95),
-            AppItem("Another app", "Tools", 4.2f, 50)
+            AppItem("Taylor Swift", "Music & Audio", 4.6f, 120),
+            AppItem("GitHub", "Productivity", 4.7f, 80),
+            AppItem("Netflick", "Entertainment", 4.5f, 95),
+            AppItem("Another ", "Tools", 4.2f, 50)
         )
 
         return listOf(
             AppRow(
-                title = "Sponsored · Suggested for you",
+                title = "Suggested apps",
                 apps = suggestedApps,
                 layoutType = AppRow.LayoutType.VERTICAL_LIST
             ),
             AppRow(
-                title = "Recommended for you",
+                title = "Recommended apps",
                 apps = recommendedApps,
                 layoutType = AppRow.LayoutType.HORIZONTAL_STRIP
             )

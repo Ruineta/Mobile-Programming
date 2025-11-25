@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#1A73E8"
+            android:background="#47E083"
             app:title="Play Store"
             app:titleTextColor="@android:color/white" />
 

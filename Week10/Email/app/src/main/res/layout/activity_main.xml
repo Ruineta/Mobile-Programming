@@ -14,11 +14,11 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#D32F2F"
-            app:title="Inbox"
-            app:titleTextColor="@android:color/white"
+            android:background="#4F77DC"
+            app:menu="@menu/menu_main"
             app:navigationIcon="@drawable/ic_menu_white_24dp"
-            app:menu="@menu/menu_main" />
+            app:title="Inbox"
+            app:titleTextColor="@android:color/white" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView

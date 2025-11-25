@@ -37,11 +37,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun createDummyEmails(): List<Email> {
         return listOf(
-            Email("Edurila.com",  "$19 Only (First 10 spots)", "Are you looking to learn Web Design?", "12:34 PM"),
-            Email("Chris Abad",   "Help make Campaign Monitor better", "Let us know your thoughts!", "11:22 AM"),
-            Email("Tuto.com",     "8h de formation gratuite", "Photoshop, SEO, Blender, CSS, WordPress…", "11:04 AM"),
-            Email("support",      "Suivi de vos services", "SAS OVH - http://www.ovh.com", "10:26 AM"),
-            Email("Matt from Ionic", "The New Ionic Creator Is Here!", "Announcing the all-new Creator builder", "9:15 AM", isStarred = true)
+            Email("MACROHARD",  "EARN THIS FOR FREE", "Are you looking for a good offer?", "9:00 AM"),
+            Email("Sarah Johnson", "Your weekly report is ready", "Click to view your dashboard summary.", "8:15 AM"),
+            Email("Mark Thompson", "Update your account details", "A reminder to verify your information.", "9:42 AM"),
+            Email("Lena Patel", "Exclusive offer just for you", "Save big with our limited-time discount.", "10:05 AM", true),
+            Email("James Lee", "Your order has shipped!", "Track your package in real time.", "1:18 PM"),
+            Email("Olivia Martinez", "Meeting rescheduled", "We’ve updated the time—please review.", "2:47 PM"),
+            Email("David Chen", "Security alert on your account", "We noticed a new login attempt.", "3:33 PM"),
+            Email("Emily Rogers", "Invitation to our webinar", "Join us to learn new strategies.", "4:56 PM"),
+            Email("Tomás Rivera", "Your subscription is expiring", "Renew now to avoid interruption.", "6:21 PM", true)
         )
     }
 }
